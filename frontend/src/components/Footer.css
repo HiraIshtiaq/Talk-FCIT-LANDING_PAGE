@@ -1,0 +1,36 @@
+.footer {
+  background-color: #111;
+  color: #aaa;
+  padding: 25px 15px;
+  border-top: 1px solid #333;
+  font-size: 0.9rem;
+}
+
+.links a {
+  color: var(--accent);
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.social {
+  margin-top: 10px;
+}
+
+.social a {
+  margin: 0 8px;
+}
+
+.social img {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    font-size: 0.8rem;
+  }
+}
